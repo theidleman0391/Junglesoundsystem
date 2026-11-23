@@ -1,0 +1,28 @@
+=====================================================
+ GUÍA PARA ADMINISTRAR LAS FOTOS DE LA GALERÍA
+=====================================================
+
+¡Hola! Esta carpeta contiene las imágenes que se muestran en la sección "Galería" de tu sitio web:
+
+  - foto1.jpg  -> Primera foto de la galería
+  - foto2.jpg  -> Segunda foto de la galería
+  - foto3.jpg  -> Tercera foto de la galería
+  - foto4.jpg  -> Cuarta foto de la galería
+  - foto5.jpg  -> Quinta foto de la galería
+  - foto6.jpg  -> Sexta foto de la galería
+
+-----------------------------------------------------
+¿CÓMO CAMBIAR UNA FOTO?
+-----------------------------------------------------
+1. Elige la foto nueva que quieras poner.
+2. Cámbiale el nombre para que coincida con la que quieras reemplazar (por ejemplo: "foto1.jpg").
+3. Cópiala y pégala dentro de esta carpeta, reemplazando el archivo anterior.
+4. ¡Listo! Abre tu página o recarga el navegador (F5 o Ctrl+F5) y verás la foto nueva actualizada inmediatamente, tanto en la cuadrícula como en el visor emergente (lightbox).
+
+-----------------------------------------------------
+FORMATOS RECOMENDADOS:
+-----------------------------------------------------
+- Formato: .jpg, .jpeg, .png o .webp.
+- Orientación: Horizontal o cuadrada luce mejor en la cuadrícula.
+- Peso sugerido: Entre 150 KB y 1.5 MB para que carguen rápido y con buena nitidez.
+
