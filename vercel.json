@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/code(.html)?",
+      "destination": "/"
+    },
+    {
+      "source": "/favicon.ico",
+      "destination": "/assets/logos/jaguar_head_gold.png"
+    },
+    {
+      "source": "/jaguar_head_gold.png",
+      "destination": "/assets/logos/jaguar_head_gold.png"
+    },
+    {
+      "source": "/dj_controller_live.png",
+      "destination": "/assets/images/dj_controller_live.png"
+    },
+    {
+      "source": "/Images/galeria/:path*",
+      "destination": "/assets/galeria/:path*"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ]
+}

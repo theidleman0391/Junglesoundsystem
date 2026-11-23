@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://junglesoundsystem.com.mx/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://junglesoundsystem.com.mx/assets/logos/jaguar_head_gold.png</image:loc>
+      <image:title>Jungle Sound System Logo</image:title>
+      <image:caption>Sonido Profesional, DJ e Iluminacion para Eventos en Cuernavaca y Morelos</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://junglesoundsystem.com.mx/assets/images/dj_controller_live.png</image:loc>
+      <image:title>Cabina de DJ en vivo Jungle Sound System</image:title>
+    </image:image>
+  </url>
+</urlset>
